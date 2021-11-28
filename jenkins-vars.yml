@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-openvscode-server
+external_type: na
+custom_version_command: "curl -sX GET https://api.github.com/repos/gitpod-io/openvscode-server/releases/latest | jq -r '. | .tag_name' | sed 's|^openvscode-server-v||'"
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - CONTAINER_NAME = 'openvscode-server'
+  - BUILD_VERSION_ARG = 'CODE_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-openvscode-server'
+  - DOCKERHUB_IMAGE = 'linuxserver/openvscode-server'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/openvscode-server'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/openvscode-server'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='3000'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific|CONNECTION_TOKEN=lsio'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH='/?tkn=lsio'

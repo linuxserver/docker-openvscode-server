@@ -1,0 +1,25 @@
+#!/usr/bin/with-contenv bash
+
+if [ -n "$CONNECTION_SECRET" ]; then
+    CODE_ARGS="${CODE_ARGS} --connection-secret ${CONNECTION_SECRET}"
+    echo "Using connection secret from ${CONNECTION_SECRET}"
+elif [ -n "$CONNECTION_TOKEN" ]; then
+    CODE_ARGS="${CODE_ARGS} --connection-token ${CONNECTION_TOKEN}"
+    echo "Using connection token ${CONNECTION_TOKEN}"
+else
+    if [ ! -f "/config/.secretkey" ]; then
+        echo "Generating random secret key. . ."
+        echo $RANDOM | md5sum | head -c 20 > /config/.secretkey
+    fi
+    CODE_ARGS="${CODE_ARGS} --connection-token $(cat /config/.secretkey)"
+    echo "**** Using connection token $(cat /config/.secretkey) ****"
+fi
+
+cd /app/openvscode-server || exit
+
+exec \
+    s6-setuidgid abc \
+        /app/openvscode-server/server.sh \
+            --port 3000 \
+            --disable-telemetry \
+            ${CODE_ARGS}
