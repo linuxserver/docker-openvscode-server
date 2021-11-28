@@ -16,6 +16,7 @@ RUN \
   apt-get install -y \
     git \
     jq \
+    libatomic1 \
     nano \
     net-tools \
     sudo && \
