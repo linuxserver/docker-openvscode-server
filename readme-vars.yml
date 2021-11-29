@@ -14,9 +14,10 @@ available_architectures:
   - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
 # development version
-development_versions: false
+development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases" }
+  - { tag: "insiders", desc: "Insiders releases" }
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -56,4 +57,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "29.11.21:", desc: "Release `insiders` tag." }
   - { date: "28.11.21:", desc: "Initial Release." }

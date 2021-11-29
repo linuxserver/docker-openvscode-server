@@ -36,4 +36,6 @@ else
     chown abc:abc /config/workspace
 fi
 chmod 700 /config/.ssh
-chmod 600 /config/.ssh/*
+if [ -n "$(ls -A /config/.ssh)" ]; then
+    chmod 600 /config/.ssh/*
+fi
