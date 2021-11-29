@@ -22,14 +22,14 @@ RUN \
     sudo && \
   echo "**** install openvscode-server ****" && \
   if [ -z ${CODE_RELEASE+x} ]; then \
-    CODE_RELEASE=$(curl -sX GET "https://api.github.com/repos/gitpod-io/openvscode-server/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]' \
-      | sed 's|^openvscode-server-v||'); \
+    CODE_RELEASE=$(curl -sX GET "https://api.github.com/repos/gitpod-io/openvscode-server/releases" \
+      | jq -r 'first(.[] | select(.prerelease == true)) | .tag_name' \
+      | sed 's|^openvscode-server-insiders-v||'); \
   fi && \
   mkdir -p /app/openvscode-server && \
   curl -o \
     /tmp/openvscode-server.tar.gz -L \
-    "https://github.com/gitpod-io/openvscode-server/releases/download/openvscode-server-v${CODE_RELEASE}/openvscode-server-v${CODE_RELEASE}-linux-armhf.tar.gz" && \
+    "https://github.com/gitpod-io/openvscode-server/releases/download/openvscode-server-insiders-v${CODE_RELEASE}/openvscode-server-insiders-v${CODE_RELEASE}-linux-armhf.tar.gz" && \
   tar xf \
     /tmp/openvscode-server.tar.gz -C \
     /app/openvscode-server/ --strip-components=1 && \
