@@ -57,6 +57,15 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v7-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Stable releases |
+| insiders | Insiders releases |
+
 ## Application Setup
 
 Access the webui at `http://<your-ip>:3000?tkn=supersecrettoken`. If `CONNECTION_TOKEN` or `CONNECTION_SECRET` env vars are set, replace `supersecrettoken` with the value set. If not, view the container logs (`docker logs openvscode-server`) to see the randomly generated token and replace `supersecrettoken` with that.
@@ -68,6 +77,8 @@ Then open a terminal from the top menu and set your github username and email vi
 git config --global user.name "username"
 git config --global user.email "email address"
 ```
+
+When reverse proxied through SWAG, custom services running on specific ports inside openvscode-server can be accessed at `https://PORT.openvscode-server.domain.com` very much like how code-server's port proxy function is handled. For that, a wildcard CNAME `*.openvscode-server.domain.com` needs to be created and the SWAG cert needs to cover those subdomains.
 
 ## Usage
 
