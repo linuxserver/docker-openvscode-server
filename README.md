@@ -78,6 +78,8 @@ git config --global user.name "username"
 git config --global user.email "email address"
 ```
 
+When reverse proxied through SWAG, custom services running on specific ports inside openvscode-server can be accessed at `https://PORT.openvscode-server.domain.com` very much like how code-server's port proxy function is handled. For that, a wildcard CNAME `*.openvscode-server.domain.com` needs to be created and the SWAG cert needs to cover those subdomains.
+
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
@@ -243,5 +245,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **29.11.21:** - Create `.profile` and `.bashrc` for the user.
 * **29.11.21:** - Release `insiders` tag.
 * **28.11.21:** - Initial Release.
