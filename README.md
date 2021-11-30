@@ -245,4 +245,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **29.11.21:** - Create `.profile` and `.bashrc` for the user.
+* **29.11.21:** - Release `insiders` tag.
 * **28.11.21:** - Initial Release.
