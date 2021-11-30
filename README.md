@@ -99,6 +99,8 @@ services:
       - TZ=Europe/London
       - CONNECTION_TOKEN=supersecrettoken #optional
       - CONNECTION_SECRET= #optional
+      - SUDO_PASSWORD=password #optional
+      - SUDO_PASSWORD_HASH= #optional
     volumes:
       - /path/to/appdata/config:/config
     ports:
@@ -116,6 +118,8 @@ docker run -d \
   -e TZ=Europe/London \
   -e CONNECTION_TOKEN=supersecrettoken `#optional` \
   -e CONNECTION_SECRET= `#optional` \
+  -e SUDO_PASSWORD=password `#optional` \
+  -e SUDO_PASSWORD_HASH= `#optional` \
   -p 3000:3000 \
   -v /path/to/appdata/config:/config \
   --restart unless-stopped \
@@ -134,6 +138,8 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e TZ=Europe/London` | Specify a timezone to use. |
 | `-e CONNECTION_TOKEN=supersecrettoken` | Optional security token for accessing the Web UI. |
 | `-e CONNECTION_SECRET=` | Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. `/path/to/file`). Overrides `CONNECTION_TOKEN`. |
+| `-e SUDO_PASSWORD=password` | If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password. |
+| `-e SUDO_PASSWORD_HASH=` | Optionally set sudo password via hash (takes priority over `SUDO_PASSWORD` var). Format is `$type$salt$hashed`. |
 | `-v /config` | Contains all relevant configuration files. |
 
 ## Environment variables from files (Docker secrets)
@@ -245,6 +251,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **30.11.21:** - Fix app folder permissions, add the optional sudo password vars.
 * **29.11.21:** - Create `.profile` and `.bashrc` for the user.
 * **29.11.21:** - Release `insiders` tag.
 * **28.11.21:** - Initial Release.
