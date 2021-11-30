@@ -37,6 +37,8 @@ opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "CONNECTION_TOKEN", env_value: "supersecrettoken", desc: "Optional security token for accessing the Web UI." }
   - { env_var: "CONNECTION_SECRET", env_value: "", desc: "Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. `/path/to/file`). Overrides `CONNECTION_TOKEN`." }
+  - { env_var: "SUDO_PASSWORD", env_value: "password", desc: "If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password." }
+  - { env_var: "SUDO_PASSWORD_HASH", env_value: "", desc: "Optionally set sudo password via hash (takes priority over `SUDO_PASSWORD` var). Format is `$type$salt$hashed`." }
 
 optional_block_1: false
 optional_block_1_items: ""
@@ -59,6 +61,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "30.11.21:", desc: "Fix app folder permissions, add the optional sudo password vars." }
   - { date: "29.11.21:", desc: "Create `.profile` and `.bashrc` for the user." }
   - { date: "29.11.21:", desc: "Release `insiders` tag." }
   - { date: "28.11.21:", desc: "Initial Release." }
