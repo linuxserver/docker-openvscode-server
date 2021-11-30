@@ -59,4 +59,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "29.11.21:", desc: "Create `.profile` and `.bashrc` for the user." }
+  - { date: "29.11.21:", desc: "Release `insiders` tag." }
   - { date: "28.11.21:", desc: "Initial Release." }
