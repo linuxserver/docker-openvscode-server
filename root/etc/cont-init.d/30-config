@@ -34,11 +34,14 @@ if [ -f "/usr/bin/find" ] && [ -f "/usr/bin/xargs" ]; then
 
     echo "setting permissions::workspace"
     chown abc:abc /config/workspace
+    echo "setting permissions::app"
+    chown -R abc:abc /app/openvscode-server
 else
     # Set permissions on data mount
     # do not decend into the workspace
     chown -R abc:abc "$(ls /config -I workspace)"
     chown abc:abc /config/workspace
+    chown -R abc:abc /app/openvscode-server
 fi
 chmod 700 /config/.ssh
 if [ -n "$(ls -A /config/.ssh)" ]; then
