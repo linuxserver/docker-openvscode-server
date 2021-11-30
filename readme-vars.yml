@@ -54,8 +54,12 @@ app_setup_block: |
   git config --global user.email "email address"
   ```
 
+  When reverse proxied through SWAG, custom services running on specific ports inside openvscode-server can be accessed at `https://PORT.openvscode-server.domain.com` very much like how code-server's port proxy function is handled. For that, a wildcard CNAME `*.openvscode-server.domain.com` needs to be created and the SWAG cert needs to cover those subdomains.
+
+
 
 # changelog
 changelogs:
+  - { date: "29.11.21:", desc: "Create `.profile` and `.bashrc` for the user." }
   - { date: "29.11.21:", desc: "Release `insiders` tag." }
   - { date: "28.11.21:", desc: "Initial Release." }
