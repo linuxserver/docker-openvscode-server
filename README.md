@@ -251,6 +251,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.12.21:** - Update deprecated connectionToken arg.
 * **30.11.21:** - Fix app folder permissions, add the optional sudo password vars.
 * **29.11.21:** - Create `.profile` and `.bashrc` for the user.
 * **29.11.21:** - Release `insiders` tag.
