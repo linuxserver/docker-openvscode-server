@@ -17,6 +17,7 @@ RUN \
     git \
     jq \
     libatomic1 \
+    libsecret-1-0 \
     nano \
     net-tools \
     sudo && \
