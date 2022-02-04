@@ -7,19 +7,16 @@ elif [ -n "$CONNECTION_TOKEN" ]; then
     CODE_ARGS="${CODE_ARGS} --connection-token ${CONNECTION_TOKEN}"
     echo "Using connection token ${CONNECTION_TOKEN}"
 else
-    if [ ! -f "/config/.secretkey" ]; then
-        echo "Generating random secret key. . ."
-        echo $RANDOM | md5sum | head -c 20 > /config/.secretkey
-    fi
-    CODE_ARGS="${CODE_ARGS} --connection-token $(cat /config/.secretkey)"
-    echo "**** Using connection token $(cat /config/.secretkey) ****"
+    CODE_ARGS="${CODE_ARGS} --without-connection-token"
+    echo "**** No connection token is set ****"
 fi
 
 cd /app/openvscode-server || exit
 
 exec \
     s6-setuidgid abc \
-        /app/openvscode-server/server.sh \
+        /app/openvscode-server/bin/openvscode-server \
+            --host 0.0.0.0 \
             --port 3000 \
             --disable-telemetry \
             ${CODE_ARGS}

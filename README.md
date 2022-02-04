@@ -69,7 +69,7 @@ This image provides various versions that are available via tags. `latest` tag u
 
 ## Application Setup
 
-Access the webui at `http://<your-ip>:3000?tkn=supersecrettoken`. If `CONNECTION_TOKEN` or `CONNECTION_SECRET` env vars are set, replace `supersecrettoken` with the value set. If not, view the container logs (`docker logs openvscode-server`) to see the randomly generated token and replace `supersecrettoken` with that.
+If `CONNECTION_TOKEN` or `CONNECTION_SECRET` env vars are set, you can access the webui at `http://<your-ip>:3000/?tkn=supersecrettoken` (replace `supersecrettoken` with the value set). If not, you can access the webui at `http://<your-ip>:3000`.
 
 For github integration, drop your ssh key in to `/config/.ssh`.
 Then open a terminal from the top menu and set your github username and email via the following commands
@@ -252,6 +252,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **04.02.22:** - Update binary for 1.64.0+. Allow for no token set when both toekn env vars are unset. Add libsecret for keytar.
 * **29.12.21:** - Add `install-extension` as a helper for mods to install extensions.
 * **30.11.21:** - Fix app folder permissions, add the optional sudo password vars.
 * **29.11.21:** - Create `.profile` and `.bashrc` for the user.
