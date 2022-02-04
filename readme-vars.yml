@@ -46,7 +46,7 @@ optional_block_1_items: ""
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
-  Access the webui at `http://<your-ip>:3000?tkn=supersecrettoken`. If `CONNECTION_TOKEN` or `CONNECTION_SECRET` env vars are set, replace `supersecrettoken` with the value set. If not, view the container logs (`docker logs openvscode-server`) to see the randomly generated token and replace `supersecrettoken` with that.
+  If `CONNECTION_TOKEN` or `CONNECTION_SECRET` env vars are set, you can access the webui at `http://<your-ip>:3000/?tkn=supersecrettoken` (replace `supersecrettoken` with the value set). If not, you can access the webui at `http://<your-ip>:3000`.
 
   For github integration, drop your ssh key in to `/config/.ssh`.
   Then open a terminal from the top menu and set your github username and email via the following commands
@@ -62,7 +62,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "04.02.22:", desc: "Update binary for 1.64.0+." }
+  - { date: "04.02.22:", desc: "Update binary for 1.64.0+. Allow for no token set when both toekn env vars are unset." }
   - { date: "29.12.21:", desc: "Add `install-extension` as a helper for mods to install extensions." }
   - { date: "30.11.21:", desc: "Fix app folder permissions, add the optional sudo password vars." }
   - { date: "29.11.21:", desc: "Create `.profile` and `.bashrc` for the user." }
