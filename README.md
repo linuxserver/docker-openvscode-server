@@ -252,7 +252,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **04.02.22:** - Update binary for 1.64.0+. Allow for no token set when both toekn env vars are unset.
+* **04.02.22:** - Update binary for 1.64.0+. Allow for no token set when both toekn env vars are unset. Add libsecret for keytar.
 * **29.12.21:** - Add `install-extension` as a helper for mods to install extensions.
 * **10.12.21:** - Update deprecated connectionToken arg.
 * **30.11.21:** - Fix app folder permissions, add the optional sudo password vars.
