@@ -19,7 +19,7 @@ cd /app/openvscode-server || exit
 
 exec \
     s6-setuidgid abc \
-        /app/openvscode-server/server.sh \
+        /app/openvscode-server/bin/openvscode-server \
             --port 3000 \
             --disable-telemetry \
             ${CODE_ARGS}
