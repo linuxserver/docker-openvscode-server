@@ -62,6 +62,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "04.02.22:", desc: "Update binary for 1.64.0+." }
   - { date: "29.12.21:", desc: "Add `install-extension` as a helper for mods to install extensions." }
   - { date: "30.11.21:", desc: "Fix app folder permissions, add the optional sudo password vars." }
   - { date: "29.11.21:", desc: "Create `.profile` and `.bashrc` for the user." }
