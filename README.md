@@ -98,7 +98,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - CONNECTION_TOKEN=supersecrettoken #optional
+      - CONNECTION_TOKEN= #optional
       - CONNECTION_SECRET= #optional
       - SUDO_PASSWORD=password #optional
       - SUDO_PASSWORD_HASH= #optional
@@ -117,7 +117,7 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
-  -e CONNECTION_TOKEN=supersecrettoken `#optional` \
+  -e CONNECTION_TOKEN= `#optional` \
   -e CONNECTION_SECRET= `#optional` \
   -e SUDO_PASSWORD=password `#optional` \
   -e SUDO_PASSWORD_HASH= `#optional` \
@@ -137,7 +137,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use. |
-| `-e CONNECTION_TOKEN=supersecrettoken` | Optional security token for accessing the Web UI. |
+| `-e CONNECTION_TOKEN=` | Optional security token for accessing the Web UI (ie. `supersecrettoken`). |
 | `-e CONNECTION_SECRET=` | Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. `/path/to/file`). Overrides `CONNECTION_TOKEN`. |
 | `-e SUDO_PASSWORD=password` | If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password. |
 | `-e SUDO_PASSWORD_HASH=` | Optionally set sudo password via hash (takes priority over `SUDO_PASSWORD` var). Format is `$type$salt$hashed`. |
