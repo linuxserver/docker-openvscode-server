@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-_install=(/app/openvscode-server/bin/openvscode-server "--extensions-dir" "/config/.vscode-remote/extensions" "--install-extension")
+_install=(/app/openvscode-server/bin/openvscode-server "--install-extension")
 
 if [ "$(whoami)" == "abc" ]; then
     "${_install[@]}" "$@"
