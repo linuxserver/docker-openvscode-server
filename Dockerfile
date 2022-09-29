@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:focal
+FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 
 # set version label
 ARG BUILD_DATE
@@ -8,12 +8,13 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="aptalca"
 
 # environment settings
+ARG DEBIAN_FRONTEND="noninteractive"
 ENV HOME="/config"
 
 RUN \
   echo "**** install runtime dependencies ****" && \
   apt-get update && \
-  apt-get install -y \
+  apt-get install -y --no-install-recommends \
     git \
     jq \
     libatomic1 \
