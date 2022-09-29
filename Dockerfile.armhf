@@ -19,8 +19,8 @@ RUN \
     jq \
     libatomic1 \
     nano \
-    netcat \
     net-tools \
+    netcat \
     sudo && \
   echo "**** install openvscode-server ****" && \
   if [ -z ${CODE_RELEASE+x} ]; then \
