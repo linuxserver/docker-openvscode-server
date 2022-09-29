@@ -12,7 +12,7 @@ else
 fi
 
 exec \
-    s6-notifyoncheck -d -n 7 -w 1000 -c "nc -z 127.0.0.1 3000" \
+    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z 127.0.0.1 3000" \
         cd /app/openvscode-server s6-setuidgid abc \
             /app/openvscode-server/bin/openvscode-server \
                 --host 0.0.0.0 \
