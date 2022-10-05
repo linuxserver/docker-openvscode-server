@@ -62,6 +62,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "29.09.22:", desc: "Rebase to jammy, switch to s6v3. Fix chown logic to skip `/config/workspace` contents." }
   - { date: "12.02.22:", desc: "Update `install-extension` helper to compensate for upstream changes." }
   - { date: "04.02.22:", desc: "Update binary for 1.64.0+. Allow for no token set when both toekn env vars are unset. Add libsecret for keytar." }
   - { date: "29.12.21:", desc: "Add `install-extension` as a helper for mods to install extensions." }

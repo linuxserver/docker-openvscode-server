@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-focal
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-jammy
 
 # set version label
 ARG BUILD_DATE
@@ -8,6 +8,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="aptalca"
 
 # environment settings
+ARG DEBIAN_FRONTEND="noninteractive"
 ENV HOME="/config"
 
 RUN \
@@ -19,6 +20,7 @@ RUN \
     libatomic1 \
     nano \
     net-tools \
+    netcat \
     sudo && \
   echo "**** install openvscode-server ****" && \
   if [ -z ${CODE_RELEASE+x} ]; then \
