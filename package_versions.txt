@@ -149,7 +149,7 @@ netcat1.218-4ubuntu1
 netcat-openbsd1.218-4ubuntu1
 net-tools1.60+git20181103.0eebece-1ubuntu5
 openssh-client1:8.9p1-3
-openssl3.0.2-0ubuntu1.6
+openssl3.0.2-0ubuntu1.7
 passwd1:4.8.1-2ubuntu2
 patch2.7.6-7build2
 perl5.34.0-3ubuntu1.1
