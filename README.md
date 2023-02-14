@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf | ✅ | arm32v7-\<version tag\> |
 
 ## Version Tags
 
@@ -66,7 +66,6 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Stable releases |
 | insiders | ✅ | Insiders releases |
-
 ## Application Setup
 
 If `CONNECTION_TOKEN` or `CONNECTION_SECRET` env vars are set, you can access the webui at `http://<your-ip>:3000/?tkn=supersecrettoken` (replace `supersecrettoken` with the value set). If not, you can access the webui at `http://<your-ip>:3000`.
@@ -97,7 +96,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
       - CONNECTION_TOKEN=supersecrettoken #optional
       - CONNECTION_SECRET= #optional
       - SUDO_PASSWORD=password #optional
@@ -116,7 +115,7 @@ docker run -d \
   --name=openvscode-server \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -e CONNECTION_TOKEN=supersecrettoken `#optional` \
   -e CONNECTION_SECRET= `#optional` \
   -e SUDO_PASSWORD=password `#optional` \
@@ -125,6 +124,7 @@ docker run -d \
   -v /path/to/appdata/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/openvscode-server:insiders
+
 ```
 
 ## Parameters
@@ -136,7 +136,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 3000` | Web UI port. |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use. |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e CONNECTION_TOKEN=supersecrettoken` | Optional security token for accessing the Web UI. |
 | `-e CONNECTION_SECRET=` | Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. `/path/to/file`). Overrides `CONNECTION_TOKEN`. |
 | `-e SUDO_PASSWORD=password` | If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password. |
