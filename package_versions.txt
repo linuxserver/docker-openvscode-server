@@ -9,7 +9,7 @@ NAME                                    VERSION                                 
 @vscode/iconv-lite-umd                  0.7.0                                    npm     
 @vscode/ripgrep                         1.14.2                                   npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-OpenVSCode Server                       1.76.1                                   npm     
+OpenVSCode Server                       1.76.2                                   npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              4.2.0                                    npm     
 agent-base                              4.3.0                                    npm     
@@ -132,7 +132,7 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm     
 javascript                              1.0.0                                    npm     
 jq                                      1.6-2.1ubuntu3                           deb     
-js-debug                                1.76.0                                   npm     
+js-debug                                1.76.1                                   npm     
 js-debug-companion                      1.0.18                                   npm     
 jschardet                               3.0.0                                    npm     
 json                                    1.0.0                                    npm     
