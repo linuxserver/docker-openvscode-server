@@ -7,7 +7,7 @@ NAME                                    VERSION                                 
 @parcel/watcher                         2.1.0                                    npm     
 @tootallnate/once                       1.1.2                                    npm     
 @vscode/iconv-lite-umd                  0.7.0                                    npm     
-@vscode/ripgrep                         1.14.2                                   npm     
+@vscode/ripgrep                         1.15.0                                   npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
 OpenVSCode Server - Insiders            1.77.0-insider                           npm     
 adduser                                 3.118ubuntu5                             deb     
@@ -132,7 +132,7 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm     
 javascript                              1.0.0                                    npm     
 jq                                      1.6-2.1ubuntu3                           deb     
-js-debug                                1.76.0                                   npm     
+js-debug                                1.76.1                                   npm     
 js-debug-companion                      1.0.18                                   npm     
 jschardet                               3.0.0                                    npm     
 json                                    1.0.0                                    npm     
@@ -160,7 +160,7 @@ libcap2                                 1:2.44-1build3                          
 libcbor0.8                              0.8.0-2ubuntu1                           deb     
 libcom-err2                             1.46.5-2ubuntu1.1                        deb     
 libcrypt1                               1:4.4.27-1                               deb     
-libcurl3-gnutls                         7.81.0-1ubuntu1.8                        deb     
+libcurl3-gnutls                         7.81.0-1ubuntu1.10                       deb     
 libcurl4                                7.81.0-1ubuntu1.8                        deb     
 libdb5.3                                5.3.28+dfsg1-0.8ubuntu3                  deb     
 libdebconfclient0                       0.261ubuntu1                             deb     
@@ -277,7 +277,7 @@ netcat-openbsd                          1.218-4ubuntu1                          
 node                                    16.14.2                                  binary  
 node-abi                                3.8.0                                    npm     
 node-gyp-build                          4.3.0                                    npm     
-node-pty                                0.11.0-beta29                            npm     
+node-pty                                0.11.0-beta30                            npm     
 npm                                     1.0.1                                    npm     
 npmlog                                  4.1.2                                    npm     
 number-is-nan                           1.0.1                                    npm     
@@ -361,7 +361,7 @@ theme-tomorrow-night-blue               1.0.0                                   
 to-regex-range                          5.0.1                                    npm     
 tunnel-agent                            0.6.0                                    npm     
 typescript                              1.0.0                                    npm     
-typescript                              5.0.1-rc                                 npm     
+typescript                              5.0.2                                    npm     
 typescript-language-features            1.0.0                                    npm     
 tzdata                                  2022g-0ubuntu0.22.04.1                   deb     
 ubuntu-keyring                          2021.03.26                               deb     
