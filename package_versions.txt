@@ -132,7 +132,7 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm     
 javascript                              1.0.0                                    npm     
 jq                                      1.6-2.1ubuntu3                           deb     
-js-debug                                1.77.0                                   npm     
+js-debug                                1.77.1                                   npm     
 js-debug-companion                      1.0.18                                   npm     
 jschardet                               3.0.0                                    npm     
 json                                    1.0.0                                    npm     
@@ -277,7 +277,7 @@ netcat-openbsd                          1.218-4ubuntu1                          
 node                                    16.14.2                                  binary  
 node-abi                                3.8.0                                    npm     
 node-gyp-build                          4.3.0                                    npm     
-node-pty                                0.11.0-beta30                            npm     
+node-pty                                0.11.0-beta31                            npm     
 npm                                     1.0.1                                    npm     
 npmlog                                  4.1.2                                    npm     
 number-is-nan                           1.0.1                                    npm     
@@ -373,7 +373,7 @@ vscode-css-languageserver               1.0.0                                   
 vscode-html-languageserver              1.0.0                                    npm     
 vscode-js-profile-table                 1.0.3                                    npm     
 vscode-json-languageserver              1.3.4                                    npm     
-vscode-markdown-languageserver          0.3.0-alpha.6                            npm     
+vscode-markdown-languageserver          0.3.0                                    npm     
 vscode-oniguruma                        1.7.0                                    npm     
 vscode-proxy-agent                      0.12.0                                   npm     
 vscode-regexpp                          3.1.0                                    npm     
@@ -383,13 +383,13 @@ wide-align                              1.1.5                                   
 wrappy                                  1.0.2                                    npm     
 xauth                                   1:1.1-1build2                            deb     
 xml                                     1.0.0                                    npm     
-xterm                                   5.2.0-beta.30                            npm     
-xterm-addon-canvas                      0.4.0-beta.7                             npm     
+xterm                                   5.2.0-beta.35                            npm     
+xterm-addon-canvas                      0.4.0-beta.9                             npm     
 xterm-addon-search                      0.11.0                                   npm     
 xterm-addon-serialize                   0.9.0                                    npm     
 xterm-addon-unicode11                   0.5.0                                    npm     
-xterm-addon-webgl                       0.15.0-beta.7                            npm     
-xterm-headless                          5.2.0-beta.30                            npm     
+xterm-addon-webgl                       0.15.0-beta.8                            npm     
+xterm-headless                          5.2.0-beta.35                            npm     
 yallist                                 4.0.0                                    npm     
 yaml                                    1.0.0                                    npm     
 yauzl                                   2.10.0                                   npm     
