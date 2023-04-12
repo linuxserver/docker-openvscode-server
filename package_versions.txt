@@ -9,7 +9,7 @@ NAME                                    VERSION                                 
 @vscode/iconv-lite-umd                  0.7.0                                    npm     
 @vscode/ripgrep                         1.15.0                                   npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-OpenVSCode Server                       1.77.1                                   npm     
+OpenVSCode Server                       1.77.2                                   npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              4.2.0                                    npm     
 agent-base                              4.3.0                                    npm     
@@ -186,8 +186,8 @@ libkeyutils1                            1.6.1-2ubuntu3                          
 libkrb5-3                               1.19.2-2ubuntu0.1                        deb     
 libkrb5support0                         1.19.2-2ubuntu0.1                        deb     
 libksba8                                1.6.0-2ubuntu0.2                         deb     
-libldap-2.5-0                           2.5.14+dfsg-0ubuntu0.22.04.1             deb     
-libldap-common                          2.5.14+dfsg-0ubuntu0.22.04.1             deb     
+libldap-2.5-0                           2.5.14+dfsg-0ubuntu0.22.04.2             deb     
+libldap-common                          2.5.14+dfsg-0ubuntu0.22.04.2             deb     
 liblz4-1                                1.9.3-2build2                            deb     
 liblzma5                                5.2.5-2ubuntu1                           deb     
 libmd0                                  1.0.4-1build1                            deb     
@@ -341,7 +341,7 @@ string_decoder                          1.3.0                                   
 strip-ansi                              3.0.1                                    npm     
 strip-ansi                              6.0.1                                    npm     
 strip-json-comments                     2.0.1                                    npm     
-sudo                                    1.9.9-1ubuntu2.3                         deb     
+sudo                                    1.9.9-1ubuntu2.4                         deb     
 swift                                   1.0.0                                    npm     
 sysvinit-utils                          3.01-1ubuntu1                            deb     
 tar                                     1.34+dfsg-1ubuntu0.1.22.04.1             deb     
