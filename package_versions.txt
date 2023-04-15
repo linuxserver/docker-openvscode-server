@@ -363,7 +363,7 @@ tunnel-agent                            0.6.0                                   
 typescript                              1.0.0                                    npm     
 typescript                              5.0.4                                    npm     
 typescript-language-features            1.0.0                                    npm     
-tzdata                                  2022g-0ubuntu0.22.04.1                   deb     
+tzdata                                  2023c-0ubuntu0.22.04.0                   deb     
 ubuntu-keyring                          2021.03.26                               deb     
 usrmerge                                25ubuntu2                                deb     
 util-deprecate                          1.0.2                                    npm     
