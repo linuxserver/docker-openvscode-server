@@ -7,11 +7,11 @@ NAME                                    VERSION                                 
 @parcel/watcher                         2.1.0                                    npm     
 @tootallnate/once                       1.1.2                                    npm     
 @vscode/iconv-lite-umd                  0.7.0                                    npm     
-@vscode/proxy-agent                     0.13.1                                   npm     
+@vscode/proxy-agent                     0.13.2                                   npm     
 @vscode/ripgrep                         1.15.2                                   npm     
 @vscode/spdlog                          0.13.10                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-OpenVSCode Server                       1.78.1                                   npm     
+OpenVSCode Server                       1.78.2                                   npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              4.2.0                                    npm     
 agent-base                              4.3.0                                    npm     
