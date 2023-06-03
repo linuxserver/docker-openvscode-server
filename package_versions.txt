@@ -34,7 +34,7 @@ bsdutils                                1:2.37.2-4ubuntu3                       
 buffer                                  5.7.1                                    npm     
 buffer-crc32                            0.2.13                                   npm     
 builtin-notebook-renderers              1.0.0                                    npm     
-ca-certificates                         20211016ubuntu0.22.04.1                  deb     
+ca-certificates                         20230311ubuntu0.22.04.1                  deb     
 chownr                                  1.1.4                                    npm     
 clojure                                 1.0.0                                    npm     
 code-point-at                           1.1.0                                    npm     
@@ -287,7 +287,7 @@ object-assign                           4.1.1                                   
 objective-c                             1.0.0                                    npm     
 once                                    1.4.0                                    npm     
 openssh-client                          1:8.9p1-3ubuntu0.1                       deb     
-openssl                                 3.0.2-0ubuntu1.9                         deb     
+openssl                                 3.0.2-0ubuntu1.10                        deb     
 passwd                                  1:4.8.1-2ubuntu2.1                       deb     
 patch                                   2.7.6-7build2                            deb     
 pend                                    1.2.0                                    npm     
