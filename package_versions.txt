@@ -8,10 +8,10 @@ NAME                                    VERSION                                 
 @tootallnate/once                       1.1.2                                    npm     
 @vscode/iconv-lite-umd                  0.7.0                                    npm     
 @vscode/proxy-agent                     0.14.1                                   npm     
-@vscode/ripgrep                         1.15.4                                   npm     
+@vscode/ripgrep                         1.15.5                                   npm     
 @vscode/spdlog                          0.13.10                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-OpenVSCode Server - Insiders            1.80.0-insider                           npm     
+OpenVSCode Server - Insiders            1.81.0-insider                           npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              4.2.0                                    npm     
 agent-base                              4.3.0                                    npm     
@@ -101,7 +101,7 @@ gpg-wks-server                          2.2.27-3ubuntu2.1                       
 gpgconf                                 2.2.27-3ubuntu2.1                        deb     
 gpgsm                                   2.2.27-3ubuntu2.1                        deb     
 gpgv                                    2.2.27-3ubuntu2.1                        deb     
-graceful-fs                             4.2.8                                    npm     
+graceful-fs                             4.2.11                                   npm     
 grep                                    3.7-1build1                              deb     
 groovy                                  1.0.0                                    npm     
 grunt                                   1.0.0                                    npm     
@@ -134,7 +134,7 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm     
 javascript                              1.0.0                                    npm     
 jq                                      1.6-2.1ubuntu3                           deb     
-js-debug                                1.78.0                                   npm     
+js-debug                                1.80.0                                   npm     
 js-debug-companion                      1.1.1                                    npm     
 jschardet                               3.0.0                                    npm     
 json                                    1.0.0                                    npm     
@@ -158,7 +158,7 @@ libbz2-1.0                              1.0.8-5build1                           
 libc-bin                                2.35-0ubuntu3.1                          deb     
 libc6                                   2.35-0ubuntu3.1                          deb     
 libcap-ng0                              0.7.9-2.2build3                          deb     
-libcap2                                 1:2.44-1build3                           deb     
+libcap2                                 1:2.44-1ubuntu0.22.04.1                  deb     
 libcbor0.8                              0.8.0-2ubuntu1                           deb     
 libcom-err2                             1.46.5-2ubuntu1.1                        deb     
 libcrypt1                               1:4.4.27-1                               deb     
