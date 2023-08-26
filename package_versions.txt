@@ -27,6 +27,7 @@ base-files                              12ubuntu4.3                             
 base-passwd                             3.5.52build1                             deb     
 base64-js                               1.5.1                                    npm     
 bash                                    5.1-6ubuntu1                             deb     
+bash                                    5.1.16                                   binary  
 bat                                     1.0.0                                    npm     
 bindings                                1.5.0                                    npm     
 bl                                      4.1.0                                    npm     
