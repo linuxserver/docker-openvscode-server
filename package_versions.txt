@@ -367,7 +367,7 @@ to-regex-range                          5.0.1                                   
 tunnel-agent                            0.6.0                                    npm     
 tunnel-forwarding                       1.0.0                                    npm     
 typescript                              1.0.0                                    npm     
-typescript                              5.2.1-rc                                 npm     
+typescript                              5.2.2                                    npm     
 typescript-language-features            1.0.0                                    npm     
 tzdata                                  2023c-0ubuntu0.22.04.2                   deb     
 ubuntu-keyring                          2021.03.26                               deb     
