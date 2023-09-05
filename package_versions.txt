@@ -11,7 +11,7 @@ NAME                                    VERSION                                 
 @vscode/ripgrep                         1.15.5                                   npm     
 @vscode/spdlog                          0.13.11                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-OpenVSCode Server - Insiders            1.82.0-insider                           npm     
+OpenVSCode Server - Insiders            1.83.0-insider                           npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              4.2.0                                    npm     
 agent-base                              4.3.0                                    npm     
@@ -137,7 +137,7 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm     
 javascript                              1.0.0                                    npm     
 jq                                      1.6-2.1ubuntu3                           deb     
-js-debug                                1.81.0                                   npm     
+js-debug                                1.82.0                                   npm     
 js-debug-companion                      1.1.2                                    npm     
 jschardet                               3.0.0                                    npm     
 json                                    1.0.0                                    npm     
