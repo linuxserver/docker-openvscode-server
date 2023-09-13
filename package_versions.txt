@@ -11,7 +11,7 @@ NAME                                    VERSION                                 
 @vscode/ripgrep                         1.15.5                                   npm     
 @vscode/spdlog                          0.13.11                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-OpenVSCode Server                       1.82.0                                   npm     
+OpenVSCode Server                       1.82.1                                   npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              4.2.0                                    npm     
 agent-base                              4.3.0                                    npm     
@@ -248,7 +248,7 @@ libxext6                                2:1.3.4-1build1                         
 libxmuu1                                2:1.1.3-3                                deb     
 libxxhash0                              0.8.1-1                                  deb     
 libzstd1                                1.4.8+dfsg-3build1                       deb     
-locales                                 2.35-0ubuntu3.1                          deb     
+locales                                 2.35-0ubuntu3.3                          deb     
 log                                     1.0.0                                    npm     
 login                                   1:4.8.1-2ubuntu2.1                       deb     
 logsave                                 1.46.5-2ubuntu1.1                        deb     
