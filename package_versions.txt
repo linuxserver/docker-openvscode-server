@@ -11,7 +11,7 @@ NAME                                    VERSION                                 
 @vscode/ripgrep                         1.15.5                                   npm     
 @vscode/spdlog                          0.13.11                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-OpenVSCode Server                       1.82.1                                   npm     
+OpenVSCode Server                       1.82.2                                   npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              4.2.0                                    npm     
 agent-base                              4.3.0                                    npm     
@@ -290,7 +290,7 @@ number-is-nan                           1.0.1                                   
 object-assign                           4.1.1                                    npm     
 objective-c                             1.0.0                                    npm     
 once                                    1.4.0                                    npm     
-openssh-client                          1:8.9p1-3ubuntu0.3                       deb     
+openssh-client                          1:8.9p1-3ubuntu0.4                       deb     
 openssl                                 3.0.2-0ubuntu1.10                        deb     
 passwd                                  1:4.8.1-2ubuntu2.1                       deb     
 patch                                   2.7.6-7build2                            deb     
