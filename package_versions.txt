@@ -273,7 +273,7 @@ npm                                     1.0.1                                   
 objective-c                             1.0.0                                    npm     
 once                                    1.4.0                                    npm     
 openssh-client                          1:8.9p1-3ubuntu0.4                       deb     
-openssl                                 3.0.2-0ubuntu1.10                        deb     
+openssl                                 3.0.2-0ubuntu1.12                        deb     
 passwd                                  1:4.8.1-2ubuntu2.1                       deb     
 patch                                   2.7.6-7build2                            deb     
 pend                                    1.2.0                                    npm     
