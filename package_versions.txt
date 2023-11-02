@@ -7,15 +7,12 @@ NAME                                    VERSION                                 
 @parcel/watcher                         2.1.0                                    npm     
 @tootallnate/once                       3.0.0                                    npm     
 @vscode/iconv-lite-umd                  0.7.0                                    npm     
-@vscode/proxy-agent                     0.17.4                                   npm     
-@vscode/ripgrep                         1.15.5                                   npm     
-@vscode/spdlog                          0.13.11                                  npm     
+@vscode/proxy-agent                     0.17.5                                   npm     
+@vscode/ripgrep                         1.15.6                                   npm     
+@vscode/spdlog                          0.13.12                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-OpenVSCode Server - Insiders            1.83.0-insider                           npm     
+OpenVSCode Server - Insiders            1.85.0-insider                           npm     
 adduser                                 3.118ubuntu5                             deb     
-agent-base                              4.2.0                                    npm     
-agent-base                              4.3.0                                    npm     
-agent-base                              6.0.2                                    npm     
 agent-base                              7.1.0                                    npm     
 apt                                     2.4.10                                   deb     
 apt-utils                               2.4.10                                   deb     
@@ -40,6 +37,7 @@ configuration-editing                   1.0.0                                   
 cookie                                  0.4.0                                    npm     
 coreutils                               8.32-4.1ubuntu1                          deb     
 cpp                                     1.0.0                                    npm     
+cron                                    3.0pl1-137ubuntu3                        deb     
 csharp                                  1.0.0                                    npm     
 css                                     1.0.0                                    npm     
 css-language-features                   1.0.0                                    npm     
@@ -48,8 +46,6 @@ dart                                    1.0.0                                   
 dash                                    0.5.11+git20210903+057cd650a4ed-3build1  deb     
 debconf                                 1.5.79ubuntu1                            deb     
 debianutils                             5.5-1ubuntu2                             deb     
-debug                                   3.1.0                                    npm     
-debug                                   4.1.1                                    npm     
 debug                                   4.3.4                                    npm     
 debug-auto-launch                       1.0.0                                    npm     
 debug-server-ready                      1.0.0                                    npm     
@@ -64,8 +60,6 @@ dpkg                                    1.21.1ubuntu2.2                         
 e2fsprogs                               1.46.5-2ubuntu1.1                        deb     
 emmet                                   1.0.0                                    npm     
 end-of-stream                           1.4.4                                    npm     
-es6-promise                             4.2.4                                    npm     
-es6-promisify                           5.0.0                                    npm     
 expand-template                         2.0.3                                    npm     
 extension-editing                       1.0.0                                    npm     
 fd-slicer                               1.1.0                                    npm     
@@ -104,11 +98,8 @@ hlsl                                    1.0.0                                   
 hostname                                3.23ubuntu2                              deb     
 html                                    1.0.0                                    npm     
 html-language-features                  1.0.0                                    npm     
-http-proxy-agent                        2.1.0                                    npm     
 http-proxy-agent                        7.0.0                                    npm     
-https-proxy-agent                       2.2.4                                    npm     
-https-proxy-agent                       5.0.0                                    npm     
-https-proxy-agent                       7.0.1                                    npm     
+https-proxy-agent                       7.0.2                                    npm     
 ieee754                                 1.2.1                                    npm     
 inherits                                2.0.4                                    npm     
 ini                                     1.0.0                                    npm     
@@ -123,7 +114,7 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm     
 javascript                              1.0.0                                    npm     
 jq                                      1.6-2.1ubuntu3                           deb     
-js-debug                                1.82.0                                   npm     
+js-debug                                1.84.0                                   npm     
 js-debug-companion                      1.1.2                                    npm     
 jschardet                               3.0.0                                    npm     
 json                                    1.0.0                                    npm     
@@ -251,10 +242,9 @@ micromatch                              4.0.5                                   
 microsoft-authentication                0.0.1                                    npm     
 mimic-response                          3.1.0                                    npm     
 minimist                                1.2.6                                    npm     
-mkdirp                                  0.5.6                                    npm     
+mkdirp                                  1.0.4                                    npm     
 mkdirp-classic                          0.5.3                                    npm     
 mount                                   2.37.2-4ubuntu3                          deb     
-ms                                      2.0.0                                    npm     
 ms                                      2.1.2                                    npm     
 nano                                    6.2-1                                    deb     
 napi-build-utils                        1.0.2                                    npm     
@@ -268,7 +258,7 @@ netcat-openbsd                          1.218-4ubuntu1                          
 node                                    18.15.0                                  binary  
 node-abi                                3.8.0                                    npm     
 node-gyp-build                          4.3.0                                    npm     
-node-pty                                1.1.0-beta1                              npm     
+node-pty                                1.1.0-beta5                              npm     
 npm                                     1.0.1                                    npm     
 objective-c                             1.0.0                                    npm     
 once                                    1.4.0                                    npm     
@@ -351,7 +341,7 @@ vscode-css-languageserver               1.0.0                                   
 vscode-html-languageserver              1.0.0                                    npm     
 vscode-js-profile-table                 1.0.3                                    npm     
 vscode-json-languageserver              1.3.4                                    npm     
-vscode-markdown-languageserver          0.4.0-alpha.6                            npm     
+vscode-markdown-languageserver          0.4.0-alpha.8                            npm     
 vscode-oniguruma                        1.7.0                                    npm     
 vscode-regexpp                          3.1.0                                    npm     
 vscode-textmate                         9.0.0                                    npm     
@@ -359,14 +349,14 @@ vscode-theme-seti                       1.0.0                                   
 wrappy                                  1.0.2                                    npm     
 xauth                                   1:1.1-1build2                            deb     
 xml                                     1.0.0                                    npm     
-xterm                                   5.4.0-beta.27                            npm     
-xterm-addon-canvas                      0.6.0-beta.27                            npm     
+xterm                                   5.4.0-beta.37                            npm     
+xterm-addon-canvas                      0.6.0-beta.37                            npm     
 xterm-addon-image                       0.6.0-beta.21                            npm     
-xterm-addon-search                      0.14.0-beta.26                           npm     
-xterm-addon-serialize                   0.12.0-beta.26                           npm     
-xterm-addon-unicode11                   0.7.0-beta.26                            npm     
-xterm-addon-webgl                       0.17.0-beta.26                           npm     
-xterm-headless                          5.4.0-beta.27                            npm     
+xterm-addon-search                      0.14.0-beta.36                           npm     
+xterm-addon-serialize                   0.12.0-beta.36                           npm     
+xterm-addon-unicode11                   0.7.0-beta.36                            npm     
+xterm-addon-webgl                       0.17.0-beta.36                           npm     
+xterm-headless                          5.4.0-beta.37                            npm     
 yallist                                 4.0.0                                    npm     
 yaml                                    1.0.0                                    npm     
 yauzl                                   2.10.0                                   npm     
