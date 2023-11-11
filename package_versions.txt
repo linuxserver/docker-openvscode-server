@@ -11,14 +11,14 @@ NAME                                    VERSION                                 
 @vscode/ripgrep                         1.15.6                                   npm     
 @vscode/spdlog                          0.13.12                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-@xterm/addon-canvas                     0.6.0-beta.9                             npm     
-@xterm/addon-image                      0.7.0-beta.7                             npm     
-@xterm/addon-search                     0.14.0-beta.9                            npm     
-@xterm/addon-serialize                  0.12.0-beta.9                            npm     
-@xterm/addon-unicode11                  0.7.0-beta.9                             npm     
-@xterm/addon-webgl                      0.17.0-beta.9                            npm     
-@xterm/headless                         5.4.0-beta.9                             npm     
-@xterm/xterm                            5.4.0-beta.9                             npm     
+@xterm/addon-canvas                     0.6.0-beta.14                            npm     
+@xterm/addon-image                      0.7.0-beta.12                            npm     
+@xterm/addon-search                     0.14.0-beta.14                           npm     
+@xterm/addon-serialize                  0.12.0-beta.14                           npm     
+@xterm/addon-unicode11                  0.7.0-beta.14                            npm     
+@xterm/addon-webgl                      0.17.0-beta.14                           npm     
+@xterm/headless                         5.4.0-beta.14                            npm     
+@xterm/xterm                            5.4.0-beta.14                            npm     
 OpenVSCode Server - Insiders            1.85.0-insider                           npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              7.1.0                                    npm     
@@ -337,7 +337,7 @@ to-regex-range                          5.0.1                                   
 tunnel-agent                            0.6.0                                    npm     
 tunnel-forwarding                       1.0.0                                    npm     
 typescript                              1.0.0                                    npm     
-typescript                              5.2.2                                    npm     
+typescript                              5.3.1-rc                                 npm     
 typescript-language-features            1.0.0                                    npm     
 tzdata                                  2023c-0ubuntu0.22.04.2                   deb     
 ubuntu-keyring                          2021.03.26                               deb     
