@@ -8,18 +8,18 @@ NAME                                    VERSION                                 
 @tootallnate/once                       3.0.0                                    npm     
 @vscode/iconv-lite-umd                  0.7.0                                    npm     
 @vscode/proxy-agent                     0.18.2                                   npm     
-@vscode/ripgrep                         1.15.6                                   npm     
+@vscode/ripgrep                         1.15.9                                   npm     
 @vscode/spdlog                          0.13.12                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-@xterm/addon-canvas                     0.6.0-beta.14                            npm     
-@xterm/addon-image                      0.7.0-beta.12                            npm     
-@xterm/addon-search                     0.14.0-beta.14                           npm     
-@xterm/addon-serialize                  0.12.0-beta.14                           npm     
-@xterm/addon-unicode11                  0.7.0-beta.14                            npm     
-@xterm/addon-webgl                      0.17.0-beta.14                           npm     
-@xterm/headless                         5.4.0-beta.14                            npm     
-@xterm/xterm                            5.4.0-beta.14                            npm     
-OpenVSCode Server - Insiders            1.85.0-insider                           npm     
+@xterm/addon-canvas                     0.6.0-beta.15                            npm     
+@xterm/addon-image                      0.7.0-beta.13                            npm     
+@xterm/addon-search                     0.14.0-beta.15                           npm     
+@xterm/addon-serialize                  0.12.0-beta.15                           npm     
+@xterm/addon-unicode11                  0.7.0-beta.15                            npm     
+@xterm/addon-webgl                      0.17.0-beta.15                           npm     
+@xterm/headless                         5.4.0-beta.15                            npm     
+@xterm/xterm                            5.4.0-beta.15                            npm     
+OpenVSCode Server - Insiders            1.86.0-insider                           npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              7.1.0                                    npm     
 apt                                     2.4.11                                   deb     
@@ -122,7 +122,7 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm     
 javascript                              1.0.0                                    npm     
 jq                                      1.6-2.1ubuntu3                           deb     
-js-debug                                1.84.0                                   npm     
+js-debug                                1.85.0                                   npm     
 js-debug-companion                      1.1.2                                    npm     
 jschardet                               3.0.0                                    npm     
 json                                    1.0.0                                    npm     
@@ -150,7 +150,7 @@ libcap2                                 1:2.44-1ubuntu0.22.04.1                 
 libcbor0.8                              0.8.0-2ubuntu1                           deb     
 libcom-err2                             1.46.5-2ubuntu1.1                        deb     
 libcrypt1                               1:4.4.27-1                               deb     
-libcurl3-gnutls                         7.81.0-1ubuntu1.14                       deb     
+libcurl3-gnutls                         7.81.0-1ubuntu1.15                       deb     
 libcurl4                                7.81.0-1ubuntu1.14                       deb     
 libdb5.3                                5.3.28+dfsg1-0.8ubuntu3                  deb     
 libdebconfclient0                       0.261ubuntu1                             deb     
@@ -263,7 +263,7 @@ net-tools                               1.60+git20181103.0eebece-1ubuntu5       
 netbase                                 6.3                                      deb     
 netcat                                  1.218-4ubuntu1                           deb     
 netcat-openbsd                          1.218-4ubuntu1                           deb     
-node                                    18.15.0                                  binary  
+node                                    18.17.1                                  binary  
 node-abi                                3.8.0                                    npm     
 node-gyp-build                          4.3.0                                    npm     
 node-pty                                1.1.0-beta5                              npm     
@@ -347,7 +347,7 @@ util-linux                              2.37.2-4ubuntu3                         
 vb                                      1.0.0                                    npm     
 vscode-css-languageserver               1.0.0                                    npm     
 vscode-html-languageserver              1.0.0                                    npm     
-vscode-js-profile-table                 1.0.7                                    npm     
+vscode-js-profile-table                 1.0.8                                    npm     
 vscode-json-languageserver              1.3.4                                    npm     
 vscode-markdown-languageserver          0.4.0-alpha.8                            npm     
 vscode-oniguruma                        1.7.0                                    npm     
