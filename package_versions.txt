@@ -11,14 +11,14 @@ NAME                                    VERSION                                 
 @vscode/ripgrep                         1.15.9                                   npm     
 @vscode/spdlog                          0.13.12                                  npm     
 @vscode/vscode-languagedetection        1.0.21                                   npm     
-@xterm/addon-canvas                     0.6.0-beta.17                            npm     
-@xterm/addon-image                      0.7.0-beta.15                            npm     
-@xterm/addon-search                     0.14.0-beta.17                           npm     
-@xterm/addon-serialize                  0.12.0-beta.17                           npm     
-@xterm/addon-unicode11                  0.7.0-beta.17                            npm     
-@xterm/addon-webgl                      0.17.0-beta.17                           npm     
-@xterm/headless                         5.4.0-beta.17                            npm     
-@xterm/xterm                            5.4.0-beta.17                            npm     
+@xterm/addon-canvas                     0.6.0-beta.20                            npm     
+@xterm/addon-image                      0.7.0-beta.18                            npm     
+@xterm/addon-search                     0.14.0-beta.20                           npm     
+@xterm/addon-serialize                  0.12.0-beta.20                           npm     
+@xterm/addon-unicode11                  0.7.0-beta.20                            npm     
+@xterm/addon-webgl                      0.17.0-beta.20                           npm     
+@xterm/headless                         5.4.0-beta.20                            npm     
+@xterm/xterm                            5.4.0-beta.20                            npm     
 OpenVSCode Server - Insiders            1.86.0-insider                           npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              7.1.0                                    npm     
@@ -212,7 +212,7 @@ libsepol2                               3.3-1build1                             
 libsmartcols1                           2.37.2-4ubuntu3                          deb     
 libsqlite3-0                            3.37.2-2ubuntu0.1                        deb     
 libss2                                  1.46.5-2ubuntu1.1                        deb     
-libssh-4                                0.9.6-2ubuntu0.22.04.1                   deb     
+libssh-4                                0.9.6-2ubuntu0.22.04.2                   deb     
 libssl3                                 3.0.2-0ubuntu1.10                        deb     
 libstdc++6                              12.3.0-1ubuntu1~22.04                    deb     
 libsystemd0                             249.11-0ubuntu3.9                        deb     
@@ -270,7 +270,7 @@ node-pty                                1.1.0-beta5                             
 npm                                     1.0.1                                    npm     
 objective-c                             1.0.0                                    npm     
 once                                    1.4.0                                    npm     
-openssh-client                          1:8.9p1-3ubuntu0.4                       deb     
+openssh-client                          1:8.9p1-3ubuntu0.5                       deb     
 openssl                                 3.0.2-0ubuntu1.12                        deb     
 passwd                                  1:4.8.1-2ubuntu2.1                       deb     
 patch                                   2.7.6-7build2                            deb     
