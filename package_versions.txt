@@ -176,8 +176,8 @@ libkeyutils1                            1.6.1-2ubuntu3                          
 libkrb5-3                               1.19.2-2ubuntu0.2                        deb     
 libkrb5support0                         1.19.2-2ubuntu0.2                        deb     
 libksba8                                1.6.0-2ubuntu0.2                         deb     
-libldap-2.5-0                           2.5.16+dfsg-0ubuntu0.22.04.1             deb     
-libldap-common                          2.5.16+dfsg-0ubuntu0.22.04.1             deb     
+libldap-2.5-0                           2.5.16+dfsg-0ubuntu0.22.04.2             deb     
+libldap-common                          2.5.16+dfsg-0ubuntu0.22.04.2             deb     
 liblz4-1                                1.9.3-2build2                            deb     
 liblzma5                                5.2.5-2ubuntu1                           deb     
 libmd0                                  1.0.4-1build1                            deb     
@@ -271,7 +271,7 @@ npm                                     1.0.1                                   
 objective-c                             1.0.0                                    npm     
 once                                    1.4.0                                    npm     
 openssh-client                          1:8.9p1-3ubuntu0.6                       deb     
-openssl                                 3.0.2-0ubuntu1.12                        deb     
+openssl                                 3.0.2-0ubuntu1.13                        deb     
 passwd                                  1:4.8.1-2ubuntu2.1                       deb     
 patch                                   2.7.6-7build2                            deb     
 pend                                    1.2.0                                    npm     
