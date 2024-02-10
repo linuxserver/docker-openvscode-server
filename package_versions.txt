@@ -19,7 +19,7 @@ NAME                                    VERSION                                 
 @xterm/addon-webgl                      0.17.0-beta.20                           npm     
 @xterm/headless                         5.4.0-beta.20                            npm     
 @xterm/xterm                            5.4.0-beta.20                            npm     
-OpenVSCode Server                       1.86.0                                   npm     
+OpenVSCode Server                       1.86.1                                   npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              7.1.0                                    npm     
 apt                                     2.4.11                                   deb     
