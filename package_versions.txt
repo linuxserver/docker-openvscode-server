@@ -19,7 +19,7 @@ NAME                                    VERSION                                 
 @xterm/addon-webgl                      0.17.0-beta.31                           npm     
 @xterm/headless                         5.4.0-beta.31                            npm     
 @xterm/xterm                            5.4.0-beta.31                            npm     
-OpenVSCode Server - Insiders            1.87.0-insider                           npm     
+OpenVSCode Server - Insiders            1.88.0-insider                           npm     
 adduser                                 3.118ubuntu5                             deb     
 agent-base                              7.1.0                                    npm     
 apt                                     2.4.11                                   deb     
@@ -122,7 +122,7 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm     
 javascript                              1.0.0                                    npm     
 jq                                      1.6-2.1ubuntu3                           deb     
-js-debug                                1.86.1                                   npm     
+js-debug                                1.87.0                                   npm     
 js-debug-companion                      1.1.2                                    npm     
 jschardet                               3.0.0                                    npm     
 json                                    1.0.0                                    npm     
@@ -131,7 +131,7 @@ julia                                   1.0.0                                   
 kerberos                                2.0.1                                    npm     
 latex                                   1.0.0                                    npm     
 less                                    1.0.0                                    npm     
-less                                    590-1ubuntu0.22.04.1                     deb     
+less                                    590-1ubuntu0.22.04.2                     deb     
 libacl1                                 2.3.1-1                                  deb     
 libapt-pkg6.0                           2.4.11                                   deb     
 libassuan0                              2.5.5-1build1                            deb     
@@ -263,7 +263,7 @@ net-tools                               1.60+git20181103.0eebece-1ubuntu5       
 netbase                                 6.3                                      deb     
 netcat                                  1.218-4ubuntu1                           deb     
 netcat-openbsd                          1.218-4ubuntu1                           deb     
-node                                    18.17.1                                  binary  
+node                                    18.18.2                                  binary  
 node-abi                                3.8.0                                    npm     
 node-gyp-build                          4.3.0                                    npm     
 node-pty                                1.1.0-beta6                              npm     
@@ -271,7 +271,7 @@ npm                                     1.0.1                                   
 objective-c                             1.0.0                                    npm     
 once                                    1.4.0                                    npm     
 openssh-client                          1:8.9p1-3ubuntu0.6                       deb     
-openssl                                 3.0.2-0ubuntu1.14                        deb     
+openssl                                 3.0.2-0ubuntu1.15                        deb     
 passwd                                  1:4.8.1-2ubuntu2.1                       deb     
 patch                                   2.7.6-7build2                            deb     
 pend                                    1.2.0                                    npm     
@@ -337,7 +337,7 @@ to-regex-range                          5.0.1                                   
 tunnel-agent                            0.6.0                                    npm     
 tunnel-forwarding                       1.0.0                                    npm     
 typescript                              1.0.0                                    npm     
-typescript                              5.3.2                                    npm     
+typescript                              5.4.1-rc                                 npm     
 typescript-language-features            1.0.0                                    npm     
 tzdata                                  2023d-0ubuntu0.22.04                     deb     
 ubuntu-keyring                          2021.03.26                               deb     
