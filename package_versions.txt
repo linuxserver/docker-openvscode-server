@@ -339,7 +339,7 @@ tunnel-forwarding                       1.0.0                                   
 typescript                              1.0.0                                    npm       
 typescript                              5.3.2                                    npm       
 typescript-language-features            1.0.0                                    npm       
-tzdata                                  2023d-0ubuntu0.22.04                     deb       
+tzdata                                  2024a-0ubuntu0.22.04                     deb       
 ubuntu-keyring                          2021.03.26                               deb       
 usrmerge                                25ubuntu2                                deb       
 util-deprecate                          1.0.2                                    npm       
