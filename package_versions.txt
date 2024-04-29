@@ -19,7 +19,7 @@ NAME                                    VERSION                                 
 @xterm/addon-webgl                      0.18.0-beta.12                           npm       
 @xterm/headless                         5.5.0-beta.12                            npm       
 @xterm/xterm                            5.5.0-beta.12                            npm       
-OpenVSCode Server                       1.88.0                                   npm       
+OpenVSCode Server                       1.88.1                                   npm       
 adduser                                 3.118ubuntu5                             deb       
 agent-base                              7.1.0                                    npm       
 apt                                     2.4.12                                   deb       
@@ -131,7 +131,7 @@ julia                                   1.0.0                                   
 kerberos                                2.0.1                                    npm       
 latex                                   1.0.0                                    npm       
 less                                    1.0.0                                    npm       
-less                                    590-1ubuntu0.22.04.2                     deb       
+less                                    590-1ubuntu0.22.04.3                     deb       
 libacl1                                 2.3.1-1                                  deb       
 libapt-pkg6.0                           2.4.12                                   deb       
 libassuan0                              2.5.5-1build1                            deb       
@@ -337,7 +337,7 @@ to-regex-range                          5.0.1                                   
 tunnel-agent                            0.6.0                                    npm       
 tunnel-forwarding                       1.0.0                                    npm       
 typescript                              1.0.0                                    npm       
-typescript                              5.4.3                                    npm       
+typescript                              5.4.5                                    npm       
 typescript-language-features            1.0.0                                    npm       
 tzdata                                  2024a-0ubuntu0.22.04                     deb       
 ubuntu-keyring                          2021.03.26                               deb       
