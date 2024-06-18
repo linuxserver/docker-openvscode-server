@@ -31,8 +31,8 @@ pipeline {
     CI_PORT='3000'
     CI_SSL='false'
     CI_DELAY='120'
-    CI_DOCKERENV='TZ=US/Pacific|CONNECTION_TOKEN=lsio'
-    CI_AUTH='user:password'
+    CI_DOCKERENV='CONNECTION_TOKEN=lsio'
+    CI_AUTH=''
     CI_WEBPATH='/?tkn=lsio'
   }
   stages {

@@ -52,6 +52,7 @@ app_setup_block: |
   When reverse proxied through SWAG, custom services running on specific ports inside openvscode-server can be accessed at `https://PORT.openvscode-server.domain.com` very much like how code-server's port proxy function is handled. For that, a wildcard CNAME `*.openvscode-server.domain.com` needs to be created and the SWAG cert needs to cover those subdomains.
 # changelog
 changelogs:
+  - {date: "18.06.24:", desc: "Rebase to noble."}
   - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "29.09.22:", desc: "Rebase to jammy, switch to s6v3. Fix chown logic to skip `/config/workspace` contents."}
   - {date: "12.02.22:", desc: "Update `install-extension` helper to compensate for upstream changes."}
