@@ -8,18 +8,19 @@ NAME                                    VERSION                                 
 @tootallnate/once                       3.0.0                                    npm       
 @vscode/deviceid                        0.1.1                                    npm       
 @vscode/iconv-lite-umd                  0.7.0                                    npm       
-@vscode/proxy-agent                     0.19.1                                   npm       
+@vscode/proxy-agent                     0.21.0                                   npm       
 @vscode/ripgrep                         1.15.9                                   npm       
 @vscode/spdlog                          0.15.0                                   npm       
 @vscode/vscode-languagedetection        1.0.21                                   npm       
-@xterm/addon-image                      0.9.0-beta.17                            npm       
-@xterm/addon-search                     0.16.0-beta.17                           npm       
-@xterm/addon-serialize                  0.14.0-beta.17                           npm       
-@xterm/addon-unicode11                  0.9.0-beta.17                            npm       
-@xterm/addon-webgl                      0.19.0-beta.17                           npm       
-@xterm/headless                         5.6.0-beta.17                            npm       
-@xterm/xterm                            5.6.0-beta.17                            npm       
-OpenVSCode Server                       1.90.2                                   npm       
+@xterm/addon-clipboard                  0.2.0-beta.4                             npm       
+@xterm/addon-image                      0.9.0-beta.21                            npm       
+@xterm/addon-search                     0.16.0-beta.21                           npm       
+@xterm/addon-serialize                  0.14.0-beta.21                           npm       
+@xterm/addon-unicode11                  0.9.0-beta.21                            npm       
+@xterm/addon-webgl                      0.19.0-beta.21                           npm       
+@xterm/headless                         5.6.0-beta.21                            npm       
+@xterm/xterm                            5.6.0-beta.21                            npm       
+OpenVSCode Server                       1.91.0                                   npm       
 adduser                                 3.118ubuntu5                             deb       
 agent-base                              7.1.0                                    npm       
 apt                                     2.4.12                                   deb       
@@ -31,7 +32,7 @@ bash                                    5.1-6ubuntu1.1                          
 bat                                     1.0.0                                    npm       
 bindings                                1.5.0                                    npm       
 bl                                      4.1.0                                    npm       
-braces                                  3.0.2                                    npm       
+braces                                  3.0.3                                    npm       
 bsdutils                                1:2.37.2-4ubuntu3.4                      deb       
 buffer                                  5.7.1                                    npm       
 buffer-crc32                            0.2.13                                   npm       
@@ -72,7 +73,7 @@ expand-template                         2.0.3                                   
 extension-editing                       1.0.0                                    npm       
 fd-slicer                               1.1.0                                    npm       
 file-uri-to-path                        1.0.0                                    npm       
-fill-range                              7.0.1                                    npm       
+fill-range                              7.1.1                                    npm       
 findutils                               4.8.0-1ubuntu3                           deb       
 fs-constants                            1.0.0                                    npm       
 fs-extra                                11.2.0                                   npm       
@@ -123,9 +124,10 @@ jake                                    1.0.0                                   
 java                                    1.0.0                                    npm       
 javascript                              1.0.0                                    npm       
 jq                                      1.6-2.1ubuntu3                           deb       
-js-debug                                1.90.0                                   npm       
+js-base64                               3.7.7                                    npm       
+js-debug                                1.91.0                                   npm       
 js-debug-companion                      1.1.2                                    npm       
-jschardet                               3.0.0                                    npm       
+jschardet                               3.1.2                                    npm       
 json                                    1.0.0                                    npm       
 json-language-features                  1.0.0                                    npm       
 jsonfile                                6.1.0                                    npm       
@@ -339,7 +341,7 @@ to-regex-range                          5.0.1                                   
 tunnel-agent                            0.6.0                                    npm       
 tunnel-forwarding                       1.0.0                                    npm       
 typescript                              1.0.0                                    npm       
-typescript                              5.4.5                                    npm       
+typescript                              5.5.2                                    npm       
 typescript-language-features            1.0.0                                    npm       
 tzdata                                  2024a-0ubuntu0.22.04                     deb       
 ubuntu-keyring                          2021.03.26                               deb       
