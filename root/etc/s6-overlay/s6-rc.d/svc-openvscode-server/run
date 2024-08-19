@@ -1,9 +1,10 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
-if [ -n "$CONNECTION_SECRET" ]; then
+if [[ -n "$CONNECTION_SECRET" ]]; then
     CODE_ARGS="${CODE_ARGS} --connection-secret ${CONNECTION_SECRET}"
     echo "Using connection secret from ${CONNECTION_SECRET}"
-elif [ -n "$CONNECTION_TOKEN" ]; then
+elif [[ -n "$CONNECTION_TOKEN" ]]; then
     CODE_ARGS="${CODE_ARGS} --connection-token ${CONNECTION_TOKEN}"
     echo "Using connection token ${CONNECTION_TOKEN}"
 else

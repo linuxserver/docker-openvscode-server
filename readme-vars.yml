@@ -20,13 +20,10 @@ common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - {vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files."}
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Contains all relevant configuration files."}
 param_usage_include_ports: true
 param_ports:
   - {external_port: "3000", internal_port: "3000", port_desc: "Web UI port."}
-param_usage_include_env: true
-param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use."}
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
@@ -34,8 +31,6 @@ opt_param_env_vars:
   - {env_var: "CONNECTION_SECRET", env_value: "", desc: "Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. `/path/to/file`). Overrides `CONNECTION_TOKEN`."}
   - {env_var: "SUDO_PASSWORD", env_value: "password", desc: "If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password."}
   - {env_var: "SUDO_PASSWORD_HASH", env_value: "", desc: "Optionally set sudo password via hash (takes priority over `SUDO_PASSWORD` var). Format is `$type$salt$hashed`."}
-optional_block_1: false
-optional_block_1_items: ""
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -52,6 +47,7 @@ app_setup_block: |
   When reverse proxied through SWAG, custom services running on specific ports inside openvscode-server can be accessed at `https://PORT.openvscode-server.domain.com` very much like how code-server's port proxy function is handled. For that, a wildcard CNAME `*.openvscode-server.domain.com` needs to be created and the SWAG cert needs to cover those subdomains.
 # changelog
 changelogs:
+  - {date: "19.08.24:", desc: "Rebase to Ubuntu Noble."}
   - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "29.09.22:", desc: "Rebase to jammy, switch to s6v3. Fix chown logic to skip `/config/workspace` contents."}
   - {date: "12.02.22:", desc: "Update `install-extension` helper to compensate for upstream changes."}
