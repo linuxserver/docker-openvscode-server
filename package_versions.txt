@@ -8,10 +8,10 @@ NAME                                    VERSION                            TYPE
 @tootallnate/once                       3.0.0                              npm       
 @vscode/deviceid                        0.1.1                              npm       
 @vscode/iconv-lite-umd                  0.7.0                              npm       
-@vscode/proxy-agent                     0.22.0                             npm       
+@vscode/proxy-agent                     0.23.0                             npm       
 @vscode/ripgrep                         1.15.9                             npm       
 @vscode/spdlog                          0.15.0                             npm       
-@vscode/tree-sitter-wasm                0.0.1                              npm       
+@vscode/tree-sitter-wasm                0.0.2                              npm       
 @vscode/vscode-languagedetection        1.0.21                             npm       
 @xterm/addon-clipboard                  0.2.0-beta.35                      npm       
 @xterm/addon-image                      0.9.0-beta.52                      npm       
@@ -53,7 +53,7 @@ cron-daemon-common                      3.0pl1-184ubuntu2                  deb
 csharp                                  1.0.0                              npm       
 css                                     1.0.0                              npm       
 css-language-features                   1.0.0                              npm       
-curl                                    8.5.0-2ubuntu10.2                  deb       
+curl                                    8.5.0-2ubuntu10.3                  deb       
 dart                                    1.0.0                              npm       
 dash                                    0.5.12-6ubuntu5                    deb       
 debconf                                 1.5.86ubuntu1                      deb       
@@ -68,7 +68,7 @@ diff                                    1.0.0                              npm
 diffutils                               1:3.10-1build1                     deb       
 dirmngr                                 2.4.4-2ubuntu17                    deb       
 docker                                  1.0.0                              npm       
-dpkg                                    1.22.6ubuntu6                      deb       
+dpkg                                    1.22.6ubuntu6.1                    deb       
 e2fsprogs                               1.47.0-2.4~exp1ubuntu4             deb       
 emmet                                   1.0.0                              npm       
 end-of-stream                           1.4.4                              npm       
@@ -160,8 +160,8 @@ libcap2                                 1:2.66-5ubuntu2                    deb
 libcbor0.10                             0.10.2-1.2ubuntu2                  deb       
 libcom-err2                             1.47.0-2.4~exp1ubuntu4             deb       
 libcrypt1                               1:4.4.36-4build1                   deb       
-libcurl3t64-gnutls                      8.5.0-2ubuntu10.2                  deb       
-libcurl4t64                             8.5.0-2ubuntu10.2                  deb       
+libcurl3t64-gnutls                      8.5.0-2ubuntu10.3                  deb       
+libcurl4t64                             8.5.0-2ubuntu10.3                  deb       
 libdb5.3t64                             5.3.28+dfsg2-7                     deb       
 libdebconfclient0                       0.271ubuntu3                       deb       
 libedit2                                3.1-20230828-1build1               deb       
@@ -273,7 +273,7 @@ node-pty                                1.1.0-beta21                       npm
 npm                                     1.0.1                              npm       
 objective-c                             1.0.0                              npm       
 once                                    1.4.0                              npm       
-openssh-client                          1:9.6p1-3ubuntu13.4                deb       
+openssh-client                          1:9.6p1-3ubuntu13.5                deb       
 openssl                                 3.0.13-0ubuntu3.2                  deb       
 passwd                                  1:4.13+dfsg1-4ubuntu3              deb       
 patch                                   2.7.6-7build3                      deb       
@@ -357,7 +357,7 @@ vscode-js-profile-table                 1.0.9                              npm
 vscode-json-languageserver              1.3.4                              npm       
 vscode-oniguruma                        1.7.0                              npm       
 vscode-regexpp                          3.1.0                              npm       
-vscode-textmate                         9.0.0                              npm       
+vscode-textmate                         9.1.0                              npm       
 vscode-theme-seti                       1.0.0                              npm       
 vscode-yaml                             1.14.0                             npm       
 wrappy                                  1.0.2                              npm       
