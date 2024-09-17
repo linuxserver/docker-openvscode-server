@@ -21,7 +21,7 @@ NAME                                    VERSION                            TYPE
 @xterm/addon-webgl                      0.19.0-beta.52                     npm       
 @xterm/headless                         5.6.0-beta.52                      npm       
 @xterm/xterm                            5.6.0-beta.52                      npm       
-OpenVSCode Server                       1.93.0                             npm       
+OpenVSCode Server                       1.93.1                             npm       
 adduser                                 3.137ubuntu1                       deb       
 agent-base                              7.1.0                              npm       
 agent-base                              7.1.1                              npm       
@@ -53,7 +53,7 @@ cron-daemon-common                      3.0pl1-184ubuntu2                  deb
 csharp                                  1.0.0                              npm       
 css                                     1.0.0                              npm       
 css-language-features                   1.0.0                              npm       
-curl                                    8.5.0-2ubuntu10.3                  deb       
+curl                                    8.5.0-2ubuntu10.4                  deb       
 dart                                    1.0.0                              npm       
 dash                                    0.5.12-6ubuntu5                    deb       
 debconf                                 1.5.86ubuntu1                      deb       
@@ -160,8 +160,8 @@ libcap2                                 1:2.66-5ubuntu2                    deb
 libcbor0.10                             0.10.2-1.2ubuntu2                  deb       
 libcom-err2                             1.47.0-2.4~exp1ubuntu4.1           deb       
 libcrypt1                               1:4.4.36-4build1                   deb       
-libcurl3t64-gnutls                      8.5.0-2ubuntu10.3                  deb       
-libcurl4t64                             8.5.0-2ubuntu10.3                  deb       
+libcurl3t64-gnutls                      8.5.0-2ubuntu10.4                  deb       
+libcurl4t64                             8.5.0-2ubuntu10.4                  deb       
 libdb5.3t64                             5.3.28+dfsg2-7                     deb       
 libdebconfclient0                       0.271ubuntu3                       deb       
 libedit2                                3.1-20230828-1build1               deb       
