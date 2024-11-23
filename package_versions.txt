@@ -8,7 +8,7 @@ NAME                                    VERSION                            TYPE
 @tootallnate/once                       3.0.0                              npm       
 @vscode/deviceid                        0.1.1                              npm       
 @vscode/iconv-lite-umd                  0.7.0                              npm       
-@vscode/proxy-agent                     0.24.0                             npm       
+@vscode/proxy-agent                     0.25.0                             npm       
 @vscode/ripgrep                         1.15.9                             npm       
 @vscode/spdlog                          0.15.1                             npm       
 @vscode/tree-sitter-wasm                0.0.4                              npm       
@@ -53,7 +53,7 @@ cron-daemon-common                      3.0pl1-184ubuntu2                  deb
 csharp                                  1.0.0                              npm       
 css                                     1.0.0                              npm       
 css-language-features                   1.0.0                              npm       
-curl                                    8.5.0-2ubuntu10.4                  deb       
+curl                                    8.5.0-2ubuntu10.5                  deb       
 dart                                    1.0.0                              npm       
 dash                                    0.5.12-6ubuntu5                    deb       
 debconf                                 1.5.86ubuntu1                      deb       
@@ -163,8 +163,8 @@ libcap2                                 1:2.66-5ubuntu2                    deb
 libcbor0.10                             0.10.2-1.2ubuntu2                  deb       
 libcom-err2                             1.47.0-2.4~exp1ubuntu4.1           deb       
 libcrypt1                               1:4.4.36-4build1                   deb       
-libcurl3t64-gnutls                      8.5.0-2ubuntu10.4                  deb       
-libcurl4t64                             8.5.0-2ubuntu10.4                  deb       
+libcurl3t64-gnutls                      8.5.0-2ubuntu10.5                  deb       
+libcurl4t64                             8.5.0-2ubuntu10.5                  deb       
 libdb5.3t64                             5.3.28+dfsg2-7                     deb       
 libdebconfclient0                       0.271ubuntu3                       deb       
 libedit2                                3.1-20230828-1build1               deb       
@@ -333,6 +333,7 @@ tar                                     1.35+dfsg-3build1                  deb
 tar-fs                                  2.1.1                              npm       
 tar-stream                              2.2.0                              npm       
 tas-client-umd                          0.2.0                              npm       
+terminal-suggest                        1.0.1                              npm       
 theme-abyss                             1.0.0                              npm       
 theme-defaults                          1.0.0                              npm       
 theme-kimbie-dark                       1.0.0                              npm       
