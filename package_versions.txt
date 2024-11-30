@@ -269,7 +269,7 @@ ncurses-bin                             6.4+20240113-1ubuntu2              deb
 net-tools                               2.10-0.1ubuntu4                    deb       
 netbase                                 6.4                                deb       
 netcat-openbsd                          1.226-1ubuntu2                     deb       
-node                                    20.18.0                            binary    
+node                                    20.18.1                            binary    
 node-abi                                3.8.0                              npm       
 node-gyp-build                          4.8.1                              npm       
 node-pty                                1.1.0-beta22                       npm       
@@ -349,7 +349,7 @@ to-regex-range                          5.0.1                              npm
 tunnel-agent                            0.6.0                              npm       
 tunnel-forwarding                       1.0.0                              npm       
 typescript                              1.0.0                              npm       
-typescript                              5.7.1-rc                           npm       
+typescript                              5.7.2                              npm       
 typescript-language-features            1.0.0                              npm       
 tzdata                                  2024a-3ubuntu1.1                   deb       
 ubuntu-keyring                          2023.11.28.1                       deb       
