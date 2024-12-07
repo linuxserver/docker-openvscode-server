@@ -50,6 +50,45 @@ app_setup_block: |
   ```
 
   When reverse proxied through SWAG, custom services running on specific ports inside openvscode-server can be accessed at `https://PORT.openvscode-server.domain.com` very much like how code-server's port proxy function is handled. For that, a wildcard CNAME `*.openvscode-server.domain.com` needs to be created and the SWAG cert needs to cover those subdomains.
+# init diagram
+init_diagram: |
+  "openvscode-server:insiders": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-os-end -> init-config
+    init-config -> init-config-end
+    init-crontab-config -> init-config-end
+    init-opencode-server -> init-config-end
+    init-config -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    base -> init-migrations
+    init-config-end -> init-mods
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    init-config -> init-opencode-server
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-custom-files -> init-services
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-opencode-server
+    svc-opencode-server -> legacy-services
+  }
+  Base Images: {
+    "baseimage-ubuntu:noble"
+  }
+  "openvscode-server:insiders" <- Base Images
 # changelog
 changelogs:
   - {date: "18.06.24:", desc: "Rebase to noble."}
