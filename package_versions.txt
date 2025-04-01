@@ -23,7 +23,7 @@ NAME                                    VERSION                            TYPE
 @xterm/addon-webgl                      0.19.0-beta.98                     npm       
 @xterm/headless                         5.6.0-beta.98                      npm       
 @xterm/xterm                            5.6.0-beta.98                      npm       
-OpenVSCode Server                       1.98.0                             npm       
+OpenVSCode Server                       1.98.2                             npm       
 adduser                                 3.137ubuntu1                       deb       
 agent-base                              7.1.1                              npm       
 apt                                     2.7.14build2                       deb       
@@ -273,7 +273,7 @@ netbase                                 6.4                                deb
 netcat-openbsd                          1.226-1ubuntu2                     deb       
 node                                    20.18.2                            binary    
 node-abi                                3.8.0                              npm       
-node-pty                                1.1.0-beta30                       npm       
+node-pty                                1.1.0-beta31                       npm       
 npm                                     1.0.1                              npm       
 objective-c                             1.0.0                              npm       
 once                                    1.4.0                              npm       
