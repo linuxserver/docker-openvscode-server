@@ -208,7 +208,7 @@ libpam-modules-bin                      1.5.3-5ubuntu5.1                   deb
 libpam-runtime                          1.5.3-5ubuntu5.1                   deb       
 libpam0g                                1.5.3-5ubuntu5.1                   deb       
 libpcre2-8-0                            10.42-4ubuntu2.1                   deb       
-libperl5.38t64                          5.38.2-3.2build2.1                 deb       
+libperl5.38t64                          5.38.2-3.2ubuntu0.1                deb       
 libproc2-0                              2:4.0.4-4ubuntu3.2                 deb       
 libpsl5t64                              0.21.2-1.1build1                   deb       
 libreadline8t64                         8.2-4build1                        deb       
@@ -284,9 +284,9 @@ passwd                                  1:4.13+dfsg1-4ubuntu3.2            deb
 patch                                   2.7.6-7build3                      deb       
 pend                                    1.2.0                              npm       
 perl                                    1.0.0                              npm       
-perl                                    5.38.2-3.2build2.1                 deb       
-perl-base                               5.38.2-3.2build2.1                 deb       
-perl-modules-5.38                       5.38.2-3.2build2.1                 deb       
+perl                                    5.38.2-3.2ubuntu0.1                deb       
+perl-base                               5.38.2-3.2ubuntu0.1                deb       
+perl-modules-5.38                       5.38.2-3.2ubuntu0.1                deb       
 php                                     1.0.0                              npm       
 php-language-features                   1.0.0                              npm       
 picomatch                               2.3.1                              npm       
