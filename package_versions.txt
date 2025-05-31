@@ -224,7 +224,7 @@ libsemanage-common                      3.5-1build5                        deb
 libsemanage2                            3.5-1build5                        deb       
 libsepol2                               3.5-2build1                        deb       
 libsmartcols1                           2.39.3-9ubuntu6.2                  deb       
-libsqlite3-0                            3.45.1-1ubuntu2.1                  deb       
+libsqlite3-0                            3.45.1-1ubuntu2.3                  deb       
 libss2                                  1.47.0-2.4~exp1ubuntu4.1           deb       
 libssh-4                                0.10.6-2build2                     deb       
 libssl3t64                              3.0.13-0ubuntu3.5                  deb       
@@ -270,7 +270,7 @@ napi-build-utils                        1.0.2                              npm
 native-watchdog                         1.4.2                              npm       
 ncurses-base                            6.4+20240113-1ubuntu2              deb       
 ncurses-bin                             6.4+20240113-1ubuntu2              deb       
-net-tools                               2.10-0.1ubuntu4                    deb       
+net-tools                               2.10-0.1ubuntu4.4                  deb       
 netbase                                 6.4                                deb       
 netcat-openbsd                          1.226-1ubuntu2                     deb       
 node                                    20.18.3                            binary    
