@@ -1,5 +1,4 @@
 NAME                                    VERSION                            TYPE     
-@c4312/eventsource-umd                  3.0.5                              npm       
 @microsoft/1ds-core-js                  3.2.13                             npm       
 @microsoft/1ds-post-js                  3.2.13                             npm       
 @microsoft/applicationinsights-core-js  2.8.15                             npm       
@@ -11,20 +10,20 @@ NAME                                    VERSION                            TYPE
 @vscode/iconv-lite-umd                  0.7.0                              npm       
 @vscode/proxy-agent                     0.32.0                             npm       
 @vscode/ripgrep                         1.15.11                            npm       
-@vscode/spdlog                          0.15.1                             npm       
+@vscode/spdlog                          0.15.2                             npm       
 @vscode/tree-sitter-wasm                0.1.4                              npm       
 @vscode/vscode-languagedetection        1.0.21                             npm       
-@xterm/addon-clipboard                  0.2.0-beta.82                      npm       
-@xterm/addon-image                      0.9.0-beta.99                      npm       
-@xterm/addon-ligatures                  0.10.0-beta.99                     npm       
-@xterm/addon-progress                   0.2.0-beta.5                       npm       
-@xterm/addon-search                     0.16.0-beta.99                     npm       
-@xterm/addon-serialize                  0.14.0-beta.99                     npm       
-@xterm/addon-unicode11                  0.9.0-beta.99                      npm       
-@xterm/addon-webgl                      0.19.0-beta.99                     npm       
-@xterm/headless                         5.6.0-beta.99                      npm       
-@xterm/xterm                            5.6.0-beta.99                      npm       
-OpenVSCode Server                       1.99.3                             npm       
+@xterm/addon-clipboard                  0.2.0-beta.90                      npm       
+@xterm/addon-image                      0.9.0-beta.107                     npm       
+@xterm/addon-ligatures                  0.10.0-beta.107                    npm       
+@xterm/addon-progress                   0.2.0-beta.13                      npm       
+@xterm/addon-search                     0.16.0-beta.107                    npm       
+@xterm/addon-serialize                  0.14.0-beta.107                    npm       
+@xterm/addon-unicode11                  0.9.0-beta.107                     npm       
+@xterm/addon-webgl                      0.19.0-beta.107                    npm       
+@xterm/headless                         5.6.0-beta.107                     npm       
+@xterm/xterm                            5.6.0-beta.107                     npm       
+OpenVSCode Server                       1.101.1                            npm       
 adduser                                 3.137ubuntu1                       deb       
 agent-base                              7.1.1                              npm       
 apt                                     2.8.3                              deb       
@@ -75,7 +74,6 @@ dpkg                                    1.22.6ubuntu6.1                    deb
 e2fsprogs                               1.47.0-2.4~exp1ubuntu4.1           deb       
 emmet                                   1.0.0                              npm       
 end-of-stream                           1.4.4                              npm       
-eventsource-parser                      3.0.0                              npm       
 expand-template                         2.0.3                              npm       
 extension-editing                       1.0.0                              npm       
 fd-slicer                               1.1.0                              npm       
@@ -134,7 +132,7 @@ java                                    1.0.0                              npm
 javascript                              1.0.0                              npm       
 jq                                      1.7.1-3build1                      deb       
 js-base64                               3.7.7                              npm       
-js-debug                                1.97.1                             npm       
+js-debug                                1.100.1                            npm       
 js-debug-companion                      1.1.3                              npm       
 jsbn                                    1.1.0                              npm       
 jschardet                               3.1.4                              npm       
@@ -273,7 +271,7 @@ ncurses-bin                             6.4+20240113-1ubuntu2              deb
 net-tools                               2.10-0.1ubuntu4.4                  deb       
 netbase                                 6.4                                deb       
 netcat-openbsd                          1.226-1ubuntu2                     deb       
-node                                    20.18.3                            binary    
+node                                    22.15.1                            binary    
 node-abi                                3.8.0                              npm       
 node-pty                                1.1.0-beta33                       npm       
 npm                                     1.0.1                              npm       
@@ -296,6 +294,7 @@ pinentry-curses                         1.2.1-3ubuntu5                     deb
 powershell                              1.0.0                              npm       
 procps                                  2:4.0.4-4ubuntu3.2                 deb       
 promise-stream-reader                   1.0.1                              npm       
+prompt                                  1.0.0                              npm       
 proxy-from-env                          1.1.0                              npm       
 publicsuffix                            20231001.0357-0.1                  deb       
 pug                                     1.0.0                              npm       
@@ -333,7 +332,7 @@ swift                                   1.0.0                              npm
 systemd-standalone-sysusers             255.4-1ubuntu8.8                   deb       
 sysvinit-utils                          3.08-6ubuntu3                      deb       
 tar                                     1.35+dfsg-3build1                  deb       
-tar-fs                                  2.1.1                              npm       
+tar-fs                                  2.1.2                              npm       
 tar-stream                              2.2.0                              npm       
 tas-client-umd                          0.2.0                              npm       
 terminal-suggest                        1.0.1                              npm       
@@ -352,11 +351,11 @@ to-regex-range                          5.0.1                              npm
 tunnel-agent                            0.6.0                              npm       
 tunnel-forwarding                       1.0.0                              npm       
 typescript                              1.0.0                              npm       
-typescript                              5.8.2                              npm       
+typescript                              5.8.3                              npm       
 typescript-language-features            1.0.0                              npm       
 tzdata                                  2025b-0ubuntu0.24.04.1             deb       
 ubuntu-keyring                          2023.11.28.1                       deb       
-undici                                  7.3.0                              npm       
+undici                                  7.9.0                              npm       
 universalify                            2.0.1                              npm       
 unminimize                              0.2.1                              deb       
 util-deprecate                          1.0.2                              npm       
