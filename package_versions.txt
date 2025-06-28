@@ -9,7 +9,7 @@ NAME                                    VERSION                            TYPE
 @vscode/deviceid                        0.1.1                              npm       
 @vscode/iconv-lite-umd                  0.7.0                              npm       
 @vscode/proxy-agent                     0.32.0                             npm       
-@vscode/ripgrep                         1.15.13                            npm       
+@vscode/ripgrep                         1.15.14                            npm       
 @vscode/spdlog                          0.15.2                             npm       
 @vscode/tree-sitter-wasm                0.1.4                              npm       
 @vscode/vscode-languagedetection        1.0.21                             npm       
@@ -332,7 +332,7 @@ swift                                   1.0.0                              npm
 systemd-standalone-sysusers             255.4-1ubuntu8.8                   deb       
 sysvinit-utils                          3.08-6ubuntu3                      deb       
 tar                                     1.35+dfsg-3build1                  deb       
-tar-fs                                  2.1.2                              npm       
+tar-fs                                  2.1.3                              npm       
 tar-stream                              2.2.0                              npm       
 tas-client-umd                          0.2.0                              npm       
 terminal-suggest                        1.0.1                              npm       
