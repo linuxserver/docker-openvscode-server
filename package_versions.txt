@@ -7,23 +7,23 @@ NAME                                    VERSION                            TYPE
 @parcel/watcher                         2.5.1                              npm       
 @tootallnate/once                       3.0.0                              npm       
 @vscode/deviceid                        0.1.1                              npm       
-@vscode/iconv-lite-umd                  0.7.0                              npm       
-@vscode/proxy-agent                     0.33.0                             npm       
+@vscode/iconv-lite-umd                  0.7.1                              npm       
+@vscode/proxy-agent                     0.35.0                             npm       
 @vscode/ripgrep                         1.15.14                            npm       
 @vscode/spdlog                          0.15.2                             npm       
-@vscode/tree-sitter-wasm                0.1.4                              npm       
+@vscode/tree-sitter-wasm                0.2.0                              npm       
 @vscode/vscode-languagedetection        1.0.21                             npm       
-@xterm/addon-clipboard                  0.2.0-beta.100                     npm       
-@xterm/addon-image                      0.9.0-beta.117                     npm       
-@xterm/addon-ligatures                  0.10.0-beta.117                    npm       
-@xterm/addon-progress                   0.2.0-beta.23                      npm       
-@xterm/addon-search                     0.16.0-beta.117                    npm       
-@xterm/addon-serialize                  0.14.0-beta.117                    npm       
-@xterm/addon-unicode11                  0.9.0-beta.117                     npm       
-@xterm/addon-webgl                      0.19.0-beta.117                    npm       
-@xterm/headless                         5.6.0-beta.117                     npm       
-@xterm/xterm                            5.6.0-beta.117                     npm       
-OpenVSCode Server - Insiders            1.104.0-insider                    npm       
+@xterm/addon-clipboard                  0.2.0-beta.114                     npm       
+@xterm/addon-image                      0.9.0-beta.131                     npm       
+@xterm/addon-ligatures                  0.10.0-beta.131                    npm       
+@xterm/addon-progress                   0.2.0-beta.37                      npm       
+@xterm/addon-search                     0.16.0-beta.131                    npm       
+@xterm/addon-serialize                  0.14.0-beta.131                    npm       
+@xterm/addon-unicode11                  0.9.0-beta.131                     npm       
+@xterm/addon-webgl                      0.19.0-beta.131                    npm       
+@xterm/headless                         5.6.0-beta.131                     npm       
+@xterm/xterm                            5.6.0-beta.131                     npm       
+OpenVSCode Server - Insiders            1.106.0-insider                    npm       
 adduser                                 3.137ubuntu1                       deb       
 agent-base                              7.1.1                              npm       
 apt                                     2.8.3                              deb       
@@ -45,6 +45,7 @@ catatonit                               0.1.7-1                            deb
 chownr                                  1.1.4                              npm       
 clojure                                 1.0.0                              npm       
 coffeescript                            1.0.0                              npm       
+commander                               8.3.0                              npm       
 configuration-editing                   1.0.0                              npm       
 cookie                                  0.7.2                              npm       
 coreutils                               9.4-3ubuntu6.1                     deb       
@@ -64,8 +65,7 @@ debug-auto-launch                       1.0.0                              npm
 debug-server-ready                      1.0.0                              npm       
 decompress-response                     6.0.0                              npm       
 deep-extend                             0.6.0                              npm       
-detect-libc                             1.0.3                              npm       
-detect-libc                             2.0.1                              npm       
+detect-libc                             2.0.4                              npm       
 diff                                    1.0.0                              npm       
 diffutils                               1:3.10-1build1                     deb       
 dirmngr                                 2.4.4-2ubuntu17.3                  deb       
@@ -132,7 +132,7 @@ java                                    1.0.0                              npm
 javascript                              1.0.0                              npm       
 jq                                      1.7.1-3ubuntu0.24.04.1             deb       
 js-base64                               3.7.7                              npm       
-js-debug                                1.102.0                            npm       
+js-debug                                1.105.0                            npm       
 js-debug-companion                      1.1.3                              npm       
 jsbn                                    1.1.0                              npm       
 jschardet                               3.1.4                              npm       
@@ -140,6 +140,7 @@ json                                    1.0.0                              npm
 json-language-features                  1.0.0                              npm       
 jsonfile                                6.1.0                              npm       
 julia                                   1.0.0                              npm       
+katex                                   0.16.22                            npm       
 kerberos                                2.1.1                              npm       
 keyboxd                                 2.4.4-2ubuntu17.3                  deb       
 krb5-locales                            1.20.1-6ubuntu2.6                  deb       
@@ -255,6 +256,7 @@ markdown-math                           1.0.0                              npm
 mawk                                    1.3.4.20240123-1build1             deb       
 media-preview                           1.0.0                              npm       
 merge-conflict                          1.0.0                              npm       
+mermaid-chat-features                   1.0.0                              npm       
 micromatch                              4.0.8                              npm       
 microsoft-authentication                0.0.1                              npm       
 mimic-response                          3.1.0                              npm       
@@ -271,9 +273,9 @@ ncurses-bin                             6.4+20240113-1ubuntu2              deb
 net-tools                               2.10-0.1ubuntu4.4                  deb       
 netbase                                 6.4                                deb       
 netcat-openbsd                          1.226-1ubuntu2                     deb       
-node                                    22.18.0                            binary    
+node                                    22.20.0                            binary    
 node-abi                                3.8.0                              npm       
-node-pty                                1.1.0-beta33                       npm       
+node-pty                                1.1.0-beta35                       npm       
 npm                                     1.0.1                              npm       
 objective-c                             1.0.0                              npm       
 once                                    1.4.0                              npm       
@@ -332,7 +334,7 @@ swift                                   1.0.0                              npm
 systemd-standalone-sysusers             255.4-1ubuntu8.11                  deb       
 sysvinit-utils                          3.08-6ubuntu3                      deb       
 tar                                     1.35+dfsg-3build1                  deb       
-tar-fs                                  2.1.3                              npm       
+tar-fs                                  2.1.4                              npm       
 tar-stream                              2.2.0                              npm       
 tas-client-umd                          0.2.0                              npm       
 terminal-suggest                        1.0.1                              npm       
@@ -351,7 +353,7 @@ to-regex-range                          5.0.1                              npm
 tunnel-agent                            0.6.0                              npm       
 tunnel-forwarding                       1.0.0                              npm       
 typescript                              1.0.0                              npm       
-typescript                              5.9.2                              npm       
+typescript                              5.9.3                              npm       
 typescript-language-features            1.0.0                              npm       
 tzdata                                  2025b-0ubuntu0.24.04.1             deb       
 ubuntu-keyring                          2023.11.28.1                       deb       
@@ -368,7 +370,7 @@ vscode-js-profile-table                 1.0.10                             npm
 vscode-json-languageserver              1.3.4                              npm       
 vscode-oniguruma                        1.7.0                              npm       
 vscode-regexpp                          3.1.0                              npm       
-vscode-textmate                         9.2.0                              npm       
+vscode-textmate                         9.2.1                              npm       
 vscode-theme-seti                       1.0.0                              npm       
 wrappy                                  1.0.2                              npm       
 xauth                                   1:1.1.2-1build1                    deb       
