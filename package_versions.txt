@@ -13,16 +13,16 @@ NAME                                    VERSION                            TYPE
 @vscode/spdlog                          0.15.2                             npm       
 @vscode/tree-sitter-wasm                0.2.0                              npm       
 @vscode/vscode-languagedetection        1.0.21                             npm       
-@xterm/addon-clipboard                  0.2.0-beta.114                     npm       
-@xterm/addon-image                      0.9.0-beta.131                     npm       
-@xterm/addon-ligatures                  0.10.0-beta.131                    npm       
-@xterm/addon-progress                   0.2.0-beta.37                      npm       
-@xterm/addon-search                     0.16.0-beta.131                    npm       
-@xterm/addon-serialize                  0.14.0-beta.131                    npm       
-@xterm/addon-unicode11                  0.9.0-beta.131                     npm       
-@xterm/addon-webgl                      0.19.0-beta.131                    npm       
-@xterm/headless                         5.6.0-beta.131                     npm       
-@xterm/xterm                            5.6.0-beta.131                     npm       
+@xterm/addon-clipboard                  0.2.0-beta.118                     npm       
+@xterm/addon-image                      0.9.0-beta.135                     npm       
+@xterm/addon-ligatures                  0.10.0-beta.135                    npm       
+@xterm/addon-progress                   0.2.0-beta.41                      npm       
+@xterm/addon-search                     0.16.0-beta.135                    npm       
+@xterm/addon-serialize                  0.14.0-beta.135                    npm       
+@xterm/addon-unicode11                  0.9.0-beta.135                     npm       
+@xterm/addon-webgl                      0.19.0-beta.135                    npm       
+@xterm/headless                         5.6.0-beta.135                     npm       
+@xterm/xterm                            5.6.0-beta.135                     npm       
 OpenVSCode Server - Insiders            1.106.0-insider                    npm       
 adduser                                 3.137ubuntu1                       deb       
 agent-base                              7.1.1                              npm       
