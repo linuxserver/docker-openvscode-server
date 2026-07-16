@@ -279,7 +279,7 @@ node-pty                                1.1.0-beta35                       npm
 npm                                     1.0.1                              npm       
 objective-c                             1.0.0                              npm       
 once                                    1.4.0                              npm       
-openssh-client                          1:9.6p1-3ubuntu13.16               deb       
+openssh-client                          1:9.6p1-3ubuntu13.18               deb       
 openssl                                 3.0.13-0ubuntu3.11                 deb       
 opentype.js                             0.8.0                              npm       
 passwd                                  1:4.13+dfsg1-4ubuntu3.2            deb       
@@ -355,7 +355,7 @@ tunnel-forwarding                       1.0.0                              npm
 typescript                              1.0.0                              npm       
 typescript                              5.9.3                              npm       
 typescript-language-features            1.0.0                              npm       
-tzdata                                  2026a-0ubuntu0.24.04.1             deb       
+tzdata                                  2026b-0ubuntu0.24.04.1             deb       
 ubuntu-keyring                          2023.11.28.1                       deb       
 undici                                  7.9.0                              npm       
 universalify                            2.0.1                              npm       
