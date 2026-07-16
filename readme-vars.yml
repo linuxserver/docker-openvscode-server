@@ -2,6 +2,8 @@
 
 # project information
 project_name: openvscode-server
+project_deprecation_status: true
+project_deprecation_message: "Upstream project is no longer being updated."
 project_url: "https://github.com/gitpod-io/openvscode-server"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser."
